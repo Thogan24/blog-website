@@ -7,8 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    <p>{{statusMessage}}</p>
     <h1>WELCOME TO MY BLOG WEBSITE!!!!!!!!!!!!!!!!!</h1>
     <a href="/newblog">Make a new blog</a>
     <h2>Current blog</h2>
+    <ul>
+        {{#each blogs}}
+        <li>
+            <a href="/blog/{{this}}">{{this}}</a>
+        </li>        
+        {{/each}}
+        
+    </ul>
 </body>
 </html>
