@@ -1,0 +1,34 @@
+html{
+    background-color: rgb(226, 226, 226);
+    font-family: "Comic Sans", "sans-serif";
+}
+h1 {
+    /*  */
+    font-size: 60px;
+    text-align: center;
+    font-family: "Comic Sans", "sans-serif";
+}
+p, li {
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: "Comic Sans", "sans-serif";
+}
+h2 {
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+a{
+    display: block;
+    width: 150px;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: "Comic Sans", "sans-serif";
+    margin: auto;
+}
