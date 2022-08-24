@@ -8,8 +8,15 @@ h1 {
     text-align: center;
     font-family: "Comic Sans", "sans-serif";
 }
-p, li {
+p{
     text-align: center;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: "Comic Sans", "sans-serif";
+}
+li, ul{
+    text-align: left;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
