@@ -22,7 +22,7 @@ li, ul{
     letter-spacing: 1px;
     font-family: "Comic Sans", "sans-serif";
 }
-h2 {
+h2, input, textarea {
     text-align: center;
 }
 
