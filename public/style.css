@@ -10,17 +10,19 @@ h1 {
 }
 p{
     text-align: center;
-    font-size: 16px;
+    font-size: 0.8em;
     line-height: 2;
-    letter-spacing: 1px;
+    letter-spacing: 0.05vw;
     font-family: "Comic Sans", "sans-serif";
 }
-li, ul{
-    text-align: left;
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
+ul{
+    /* list-style-position: inside; */
+    text-align: center;
+    font-size: 0.8em;
+    /* line-height: 2;
+    letter-spacing: 1px; */
     font-family: "Comic Sans", "sans-serif";
+    list-style-position: inside;
 }
 h2, input, textarea {
     text-align: center;
@@ -31,11 +33,9 @@ div{
 }
 
 a{
-    display: block;
-    width: 150px;
-    font-size: 16px;
+    
+    font-size: 0.8em;
     line-height: 2;
     letter-spacing: 1px;
     font-family: "Comic Sans", "sans-serif";
-    margin: auto;
 }
