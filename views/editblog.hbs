@@ -8,6 +8,15 @@
 </head>
 <body>
     <link rel="stylesheet" type="text/css" href="/style.css">
+    <h1>{{name}}</h1>
     
+    <form action="/newblog" method="post">
+        <label for = "blogname">Blog Name</label>
+        <input id="blogname" name="blogname" value="{{name}}"></input> 
+        <br>
+        <label for = "blogtext">Blog: </label>
+        <textarea id="blogtext" name="blogtext">{{text}}</textarea>
+        <input type="submit">
+    </form>
 </body>
 </html>

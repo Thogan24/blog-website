@@ -35,7 +35,15 @@ app.get("/blog/:blogname", function(req, res){
 })
 
 app.get("/editblog", function(req, res){
-    return res.render("editblog");
+    return res.render("editblog", {name: req.params.blogname, text: blogs[req.params.blogname]});
+})
+
+app.post("/editblog", function(req, res){
+    var blogname = req.body.blogname;
+    var blogtext = req.body.blogtext;
+    blogs[blogname] = blogtext;
+    console.log(blogs);
+    return res.redirect("/?status=Blog Successfully Edited")
 })
 
 app.post("/newblog", function(req, res){
