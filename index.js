@@ -34,7 +34,7 @@ app.get("/blog/:blogname", function(req, res){
     return res.render("blog", {name: req.params.blogname, text: blogs[req.params.blogname]});
 })
 
-app.get("/editblog", function(req, res){
+app.get("/editblog/:blogname", function(req, res){
     return res.render("editblog", {name: req.params.blogname, text: blogs[req.params.blogname]});
 })
 
